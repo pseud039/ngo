@@ -54,7 +54,7 @@ export default function ContactPage() {
         className="bg-green-100 p-6 rounded-lg"
       >
         <h3>Thank you for your message!</h3>
-        <p>We'll get back to you soon.</p>
+        <p>We&apos;ll get back to you soon.</p>
       </motion.div>
       )
     }
@@ -76,7 +76,7 @@ export default function ContactPage() {
             </div>
             <div className="px-8">
               <h2 className="font-bold  md:leading-[48.2px] text-4xl md:text-[56px] max-w-[780px] text-center md:text-left md:pl-[82px] py-8">
-                We'd love to hear from you
+                We&apos;d love to hear from you
               </h2>
               <p className="text-black/70 px-20">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -91,7 +91,7 @@ export default function ContactPage() {
           <div className="gap-6 md:max-lg:px-16 lg:pt-16 max-w-[465px] grid grid-cols-3 lg:grid-cols-1 sm:max-md:mx-auto">
             {/* contacts */}
             <div className=" grid grid-cols-1 gap-1">
-              <p className="font-bold text-2xl">Let's talk!</p>
+              <p className="font-bold text-2xl">Let&apos;s talk!</p>
               <div className="flex flex-row gap-6">
                 <div className="">+91 1234567890</div>
                 <div className="">smjss@org.in</div>

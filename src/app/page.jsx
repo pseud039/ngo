@@ -118,15 +118,17 @@ export default function Home() {
         {/* support section */}
         <div className="flex flex-rows pt-16 lg:pt-24 items-center gap-6">
           <div className="uppercase text-sm md:text-base font-bold tracking-[2px] text-[var(--color-primary-text)] whitespace-nowrap">
-            OUR SUPPORTERS
+            OUR Programs
           </div>
           <div className=" h-[2px] w-full bg-[#1D2130]/60"> </div>
         </div>
         {/* marquee */}
       </div>
+      {/* marquee section */}
       <div className="pb-10">
         <Marque />
       </div>
+      {/* what we do section */}
       <section
         ref={servicesRef}
         className="w-full px-8 py-6 md:px-16 md:py-10 lg:px-28 grid grid-cols-1 gap-4 py-10 bg-[#FCEDC6]"
@@ -152,9 +154,16 @@ export default function Home() {
                 opportunity. Together, we are building a brighter tomorrow, one
                 life at a time.
               </p>
-              <div className="space-y-4 mt-6 px-8 py-6 md:px-16 md:py-10 lg:px-28">
+              <div className="space-y-4 mt-6 px-8 py-6 md:px-16 md:py-10 lg:px-28 ">
                 <div className=" flex items-start space-x-3">
-                  <svg
+                  <Image
+                    src="/image.png"
+                    width={30}
+                    height={50}
+                    alt="Picture of the author"
+                    className="rounded-[6px]"
+                  />
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="28"
                     height="29"
@@ -188,7 +197,7 @@ export default function Home() {
                       d="M7.43945 12.2188C7.19676 12.2188 7 12.4155 7 12.6582V20.9199C7 21.1626 7.19676 21.3594 7.43945 21.3594H10.2227V12.2188H7.43945ZM9.05078 17.9316C9.05078 18.1743 8.85402 18.3711 8.61133 18.3711C8.36863 18.3711 8.17188 18.1743 8.17188 17.9316V17.0527C8.17188 16.81 8.36863 16.6133 8.61133 16.6133C8.85402 16.6133 9.05078 16.81 9.05078 17.0527V17.9316ZM9.05078 15.2949C9.05078 15.5376 8.85402 15.7344 8.61133 15.7344C8.36863 15.7344 8.17188 15.5376 8.17188 15.2949V14.416C8.17188 14.1733 8.36863 13.9766 8.61133 13.9766C8.85402 13.9766 9.05078 14.1733 9.05078 14.416V15.2949Z"
                       fill="#FFEBB9"
                     />
-                  </svg>
+                  </svg> */}
                   <div className="text-[var(--color-secondary-text)] ">
                     <div className="font-bold text-xl text-[var(--color-primary-text)] pb-1">
                       Education Programs
@@ -293,9 +302,10 @@ export default function Home() {
 
         {/* </div> */}
       </section>
+      {/* other sections */}
       <section className="w-full py-10 bg-white">
         <ProjectsDone />
-        <div className="w-full py-8 grid grid-cols-1 md:grid-cols-2 bg-black my-18">
+        {/* <div className="w-full py-8 grid grid-cols-1 md:grid-cols-2 bg-black my-18">
           <div className="py-4 flex flex-col justify-center items-center mx-8 md:ml-[120px] px-4 md:pl-[72px]">
             <h2 className="font-bold text-2xl md:text-5xl leading-tight text-white max-w-[626px]">
               How we spend your donations and where it goes
@@ -316,6 +326,48 @@ export default function Home() {
           </div>
           <div className="max-w-[600px]">
             <MyPieChart />
+          </div>
+        </div> */}
+        <div className="w-full px-8 py-6 md:px-16 md:py-10 lg:px-28 grid grid-cols-1 gap-4 bg-black text-[var(--color-primary-text)] ">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+            <div className="px-6 grid grid-cols-1 md:col-span-2 gap-4">
+              <div className="grid grid-cols-1 gap-1">
+                <h2 className="font-bold text-white md:leading-[48.2px] text-4xl md:text-[56px] max-w-[780px] text-center md:text-left md:pl-[82px] py-8">
+                  How we spend your donations and where it goes
+                </h2>
+                <p className="md:pl-[82px]">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere est repellendus ducimus sint, nobis iusto eius
+                  recusandae quo, accusamus provident neque iste ea temporibus
+                  ipsum earum? Atque ullam at dignissimos.
+                </p>
+              </div>
+              <div className="grid grid-cols-3 gap-2 md:pl-[82px]">
+                <div className="flex flex-row gap-2 items-center justify-center">
+                  <div className="h-3 w-3 bg-[#BEF3C0] rounded-[2px]"></div>
+                  <div className="text-white">40% Child care </div>
+                </div>
+                <div className="flex flex-row gap-2 items-center justify-center">
+                  <div className="h-3 w-3 bg-[#AC94F1] rounded-[2px]"></div>
+                  <div className="text-white">35% cleanliness program</div>
+                </div>
+                <div className="flex flex-row gap-2 items-center justify-center">
+                  <div className="h-3 w-3 bg-[#FFF0CA] rounded-[2px]"></div>
+                  <div className="text-white">10% helping people</div>
+                </div>
+               <div className="flex flex-row gap-2 items-center justify-center">
+                  <div className="h-3 w-3 bg-[#F9CF64] rounded-[2px]"></div>
+                  <div className="text-white">10% excursions</div>
+                </div>
+                <div className="flex flex-row gap-2 items-center justify-center">
+                  <div className="h-3 w-3 bg-[#F38FBF] rounded-[2px]"></div>
+                  <div className="text-white">5% feeding the poor</div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <MyPieChart />
+            </div>
           </div>
         </div>
         <ContributionPage />

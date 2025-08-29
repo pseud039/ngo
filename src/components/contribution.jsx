@@ -1,23 +1,31 @@
+"use client";
 import React from "react";
 import Link from 'next/link';
 // import { Link } from "react-router-dom";
 import ContributionImage from "../../public/ContributionImage.png";
+import VolunteerForm from "./VolunteerForm";
 
 export default function ContributionPage() {
+    const [isPopupOpen, setIsPopupOpen] = React.useState(false);
+
   return (
     <section className="min-h w-full bg-white grid grid-cols-1 py-6 md:py-10 px-8 md:px-24 gap-8">
         {/* contribution box */}
       <div className="hidden md:block"><div
         className="mx-auto bg-cover bg-center w-full bg-no-repeat py-16 px-20 flex flex-col  justify-center items-center rounded-[20px]"
-        style={{backgroundImage: `url('/contributionImage.png')`}}
+        style={{backgroundImage: `url('/ContributionImage.png')`}}
       >
         <h2 className="text-white text-center font-bold md:text-5xl text-3xl leading-[57.6px] ">
           You can contribute to provide a place for children with special needs!
         </h2>
         <div className="flex flex-row gap-4 px-8 py-8">
-          <Link href="/about">
-            <button className="btn-primary"> Join as a volunteer</button>
-          </Link>
+          <div>
+            <button className="btn-primary" onClick={() => setIsPopupOpen(true)} > Join as a volunteer</button>
+             <VolunteerForm
+        isOpen={isPopupOpen} 
+        onClose={() => setIsPopupOpen(false)} 
+      />
+          {/* </Link> */}</div>
           <Link href="/donate">
             <button className="btn-secondary">Donate</button>
           </Link>

@@ -24,7 +24,7 @@ export default function Marque() {
         speedTween = gsap
           .timeline()
           .to(tl, {
-            timeScale: 3 * self.direction,
+            timeScale: 2 * self.direction,
             duration: 0.25,
           })
           .to(

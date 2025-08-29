@@ -24,10 +24,27 @@ export default function ProjectsDone() {
           className="rounded-[20px] h-80 bg-center bg-cover relative overflow-hidden shadow-3xl"
           style={{ backgroundImage: `url("/proj1.png")` }}
           role="img"
-          aria-label="Mission smile project"
+          aria-label="Humanitarian Child Support"
         >
           <div className="absolute inset-0 flex flex-col justify-end p-6">
-            <h3 className="text-white font-bold text-lg mb-2">Mission smile</h3>
+            <h3 className="text-white font-bold text-lg mb-2">Humanitarian Relief Program</h3>
+            <p className="text-white text-sm opacity-90">Helping communities</p>
+            <button
+              className="mt-4 btn-secondary text-white text-sm w-48"
+              aria-label="Learn more about Mission smile project"
+            >
+              Learn more
+            </button>
+          </div>
+        </div>
+        <div
+          className="rounded-[20px] h-80 bg-center bg-cover relative overflow-hidden shadow-3xl"
+          style={{ backgroundImage: `url("/proj1.png")` }}
+          role="img"
+          aria-label="Child Welfare"
+        >
+          <div className="absolute inset-0 flex flex-col justify-end p-6">
+            <h3 className="text-white font-bold text-lg mb-2">Child Welfare</h3>
             <p className="text-white text-sm opacity-90">Kids studying</p>
             <button
               className="mt-4 btn-secondary text-white text-sm w-48"
@@ -41,28 +58,11 @@ export default function ProjectsDone() {
           className="rounded-[20px] h-80 bg-center bg-cover relative overflow-hidden shadow-3xl"
           style={{ backgroundImage: `url("/proj1.png")` }}
           role="img"
-          aria-label="Mission smile project"
+          aria-label="Sanvi pratham fellowship"
         >
           <div className="absolute inset-0 flex flex-col justify-end p-6">
-            <h3 className="text-white font-bold text-lg mb-2">Mission smile</h3>
-            <p className="text-white text-sm opacity-90">Kids studying</p>
-            <button
-              className="mt-4 btn-secondary text-white text-sm w-48"
-              aria-label="Learn more about Mission smile project"
-            >
-              Learn more
-            </button>
-          </div>
-        </div>
-        <div
-          className="rounded-[20px] h-80 bg-center bg-cover relative overflow-hidden shadow-3xl"
-          style={{ backgroundImage: `url("/proj1.png")` }}
-          role="img"
-          aria-label="Mission smile project"
-        >
-          <div className="absolute inset-0 flex flex-col justify-end p-6">
-            <h3 className="text-white font-bold text-lg mb-2">Mission smile</h3>
-            <p className="text-white text-sm opacity-90">Kids studying</p>
+            <h3 className="text-white font-bold text-lg mb-2">Sanvi pratham fellowship</h3>
+            <p className="text-white text-sm opacity-90">Rescued kids studying</p>
             <button
               className="mt-4 btn-secondary text-white text-sm w-48"
               aria-label="Learn more about Mission smile project"

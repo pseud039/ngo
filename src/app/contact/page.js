@@ -78,7 +78,7 @@ export default function ContactPage() {
               <h2 className="font-bold  md:leading-[48.2px] text-4xl md:text-[56px] max-w-[780px] text-center md:text-left md:pl-[82px] py-8">
                 We&apos;d love to hear from you
               </h2>
-              <p className="text-black/70 px-20">
+              <p className="text-black/70 lg:px-20">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
@@ -88,11 +88,11 @@ export default function ContactPage() {
             </div>
           </div>
           {/* info */}
-          <div className="gap-6 md:max-lg:px-16 lg:pt-16 max-w-[465px] grid grid-cols-3 lg:grid-cols-1 sm:max-md:mx-auto">
+          <div className="gap-6 md:max-lg:px-16 lg:pt-16 max-w-[465px] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-1 sm:max-md:mx-auto">
             {/* contacts */}
             <div className=" grid grid-cols-1 gap-1">
               <p className="font-bold text-2xl">Let&apos;s talk!</p>
-              <div className="flex flex-row gap-6">
+              <div className="flex flex-col lg:flex-row gap-6">
                 <div className="">+91 1234567890</div>
                 <div className="">smjss@org.in</div>
               </div>
@@ -100,12 +100,12 @@ export default function ContactPage() {
             {/* headoffice */}
             <div className=" grid grid-cols-1 gap-1">
               <p className="font-bold text-2xl">Head Office </p>
-              <div className="">smjss@org.in</div>
+              <div className="">Pratapgarh</div>
             </div>
             {/* branchoffice */}
             <div className=" grid grid-cols-1 gap-1">
               <p className="font-bold text-2xl">Branch Office</p>
-              <div className="">+91 1234567890</div>
+              <div className="">Lucknow</div>
             </div>
 
             {/* socials */}

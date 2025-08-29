@@ -22,14 +22,11 @@ export default function AboutPage() {
         </div>
         <div className="flex flex-col gap-2 md:max-lg:px-16 lg:pt-16 max-w-[465px] text-center lg:text-left">
           <p className="font-bold leading-[30px]">
-            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-            ut sem vitae risus tristique posuere.
+           Working tirelessly to uplift marginalized communities across multiple districts in Uttar Pradesh, with a primary focus in Pratapgarh.
           </p>
           <p className="text-black/70">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Suspendisse varius enim elementum tristique.
+           
+           We are committed to creating democratic and inclusive societies by empowering vulnerable communities, particularly women, children, and youth, through comprehensive programs that address education, health, economic independence, and social justice.
           </p>
         </div>
       </div></div>
@@ -120,7 +117,7 @@ export default function AboutPage() {
                 <div className="uppercase text-sm md:text-base whitespace-nowrap font-bold tracking-[2px] text-[var(--color-primary-text)]">
               OUR JOURNEY
             </div>
-             <h2 className="font-bold text-[28px] leading-[42px]">How we raised 1B</h2>
+             <h2 className="font-bold text-[28px] leading-[42px]">How we raised our funds</h2>
              <p className="text-base font-normal leading-[25.6px] text-black/70 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
             </div>
     

@@ -21,5 +21,5 @@ export async function POST(request,response){
     }
 
   await sendEmail({ firstName, email, subject, message});
-    return new ApiResponse(200,"Mail sent");
+    return new (200,"Mail sent");
 }
